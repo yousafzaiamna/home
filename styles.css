@@ -1,0 +1,152 @@
+.container {
+	width: 80%;
+	margin: 0 auto;
+}
+
+header { 
+	background-color: #56d6aa;
+}
+
+header::after {
+	content:'';
+	display: table;
+	clear: both;
+}
+
+
+nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+nav li{
+	display: inline-block;
+	margin-left: 70px;
+	padding-top: 23px;
+	
+	position: relative;
+}
+
+nav a {
+	color: #444
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+nav a: hover {
+	color: #000;
+}
+
+nav a::before {
+	conetent:'';
+	display: block;
+	height: 5px;
+	width: 100%;
+	background-color: #444;
+	
+	position: absolute;
+	top: 0;
+	width: 0%;
+}
+
+nav a:hover::before{
+	width: 100%;
+}
+
+
+p.quote {
+	font-family:"Lucida Console", Times, serif;
+	font-size: 50px;
+	font-style: italic;
+}
+
+h1 {
+  color:#8B4513;
+  text-align: center;
+  font-family: Arial, Serif, Arial;
+  font-size: 40px;
+  background-color:	#E0FFFF;
+}
+
+h2 {
+  color:#8B4513;
+  text-align: center;
+  font-family: Arial, Serif, Arial;
+  font-size: 35px;
+  background-color:	#E0FFFF;
+}
+
+p {
+  color:#000000;
+  text-align: center;
+  font-family: Arial, Serif, Arial;
+  font-size: 30px;
+}
+
+p.table {
+	color: red;
+    font-family: Arial, Serif, Arial;
+    font-size: 30px;
+	border: 1px solid green ;
+	text-align:left;
+	background-color:#F0E68C;
+}
+
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.center1 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+ul
+{
+list-style-type: none;
+Display: table;
+Margin: 0 auto;
+}
+
+li
+{
+background-image: url(arrow.gif);
+background-repeat: no-repeat;
+background-position: 100% .4em;
+padding-right: .6em;
+margin: 1em 0;
+color:#000000;
+font-family: Arial, Serif, Arial;
+font-size: 20px;
+}
+
+p.fact {
+	color:#000000;
+    text-align: left;
+    font-family: Arial, Serif, Arial;
+    font-size: 30px;
+	background-color: #FFE4E1;
+}
+
