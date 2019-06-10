@@ -1,0 +1,118 @@
+.container {
+	width: 80%;
+	margin: 0 auto;
+}
+
+header { 
+	background-color: #56d6aa;
+}
+
+header::after {
+	content:'';
+	display: table;
+	clear: both;
+}
+
+
+nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+nav li{
+	display: inline-block;
+	margin-left: 70px;
+	padding-top: 23px;
+	
+	position: relative;
+}
+
+nav a {
+	color: #444
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+nav a: hover {
+	color: #000;
+}
+
+nav a::before {
+	conetent:'';
+	display: block;
+	height: 5px;
+	width: 100%;
+	background-color: #444;
+	
+	position: absolute;
+	top: 0;
+	width: 0%;
+}
+
+nav a:hover::before{
+	width: 100%;
+}
+
+
+p.quote {
+	font-family:"Lucida Console", Times, serif; /*Belongs to the font family*/
+	font-size: 50px;
+	font-style: italic; /*The text is shown in italics*/
+}
+
+h1 {
+  color:#8B4513; /*Color=Saddle Brown*/
+  font-family: Arial, Serif, "Times New Roman" /*The font-family property should hold several font names as a "fallback" system. If the browser does not support the first font, it tries the next font, and so on.*/
+  font-size: 50px;
+  background-color:	#E0FFFF;/*Color=Cyan*/
+  text-align: center;/*Centers the text*/
+}
+
+h2 {
+  color:#8B4513; /*Color= Saddle Brown*/
+  text-align: center; /*Centers the text*/
+  font-family: Arial, Serif, Arial;
+  font-size: 45px;
+  background-color:	#E0FFFF; /*Color=Cyan*/
+}
+
+p {
+  color:#000000; /*Color=Black*/
+  text-align: center; /*Centers the text*/
+  font-family: Arial, Serif, Arial;
+  font-size: 40px;
+}
+
+p.table {
+	color: red;
+    font-family: Arial, Serif,"Times New Roman";
+    font-size: 40px;
+	border: 1px solid green ;
+	text-align:left;
+	background-color:#F0E68C; /*Color=Yellow */
+}
+
+
+.center { /*centers all the images with the id, 'center' */
+  display: block;/*Means the element is displayed as a block. A block has some whitespace above and below it and tolertaes no HTML elements next to it.*/
+  margin-left: auto; /*The value of said property is adjusted automatically according to the content or the context of the element.*/
+  margin-right: auto; /*The browser calculates a right margin*/
+  width: 50%;
+  
+}
+
+p.fact {
+	color:#000000; /*Color= Black*/
+    text-align: left; /*Aligns the text to the left.*/
+    font-family: Arial, Serif, "Times New Roman"
+    font-size: 40px;
+	background-color: #FFE4E1;/*Color=Pink*/
+}
+
+ol, ul {
+	color:#000000; /*Color=Black*/
+	font-family: Arial, Serif, Arial;
+	font-size: 35;
+}
+
