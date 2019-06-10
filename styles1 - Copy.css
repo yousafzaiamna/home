@@ -1,0 +1,53 @@
+h1 {
+	font-size: 50px;
+	font-style:oblique;
+	font-family: cursive, "Times New Roman", Georgia;
+	background-color: yellow;
+}
+
+p {
+	font-size: 20px;
+	font-style:normal;
+	font-family: "Times New Roman", Georgia, Arail;
+	display: inline-block;
+	text-align:left;
+}
+
+image{
+	align:left;
+}
+
+.name {
+	font-size: 25px;
+	font-style:italic;
+	font-family: cursive, "Times New Roman", Georgia;
+	text-align:left;
+}
+
+h3 {
+	text-align:left;
+}
+
+.bar {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+}
+
+.navigation {
+	 float: left;
+}
+
+.navigation a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navigation a:hover {
+  background-color: #111;
+}
